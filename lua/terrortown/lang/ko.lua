@@ -95,89 +95,95 @@ L.equip_help_stock = "일부 무기는 라운드당 한 번만 구매할 수 있
 L.equip_stock_deny = "이 물건은 재고가 없습니다."
 L.equip_stock_ok = "이 물건은 재고가 있습니다."
 
-L.equip_custom = "Custom item added by this server."
+L.equip_custom = "이 서버에서 추가한 커스텀 아이템입니다."
 
 L.equip_spec_name = "이름"
-L.equip_spec_type = "유형"
+
+L.equip_spec_type = "종류"
+
 L.equip_spec_desc = "설명"
 
-L.equip_confirm = "Buy equipment"
+L.equip_confirm = "장비 구입"
 
 -- Disguiser tab in equipment menu
 L.disg_name = "변장기"
-L.disg_menutitle = "Disguise control"
-L.disg_not_owned = "You are not carrying a Disguiser!"
-L.disg_enable = "Enable disguise"
+L.disg_menutitle = "변장기 컨트롤"
+L.disg_not_owned = "당신은 위장기를 가지고 있지 않습니다!"
+L.disg_enable = "변장 활성화"
 
-L.disg_help1 = "When your disguise is active, your name, health and Karma do not show when someone looks at you. In addition, you will be hidden from a Detective's radar."
-L.disg_help2 = "Press Numpad Enter to toggle the disguise without using the menu. You can also bind a different key to 'ttt_toggle_disguise' using the console."
+
+L.disg_help1 = "변장기를 활성화 한동안, 다른 사람들이 당신의 이름, 카르마 건강 상태를 볼 수 없게합니다. 또한, 탐정의 레이더에 감지되지 않습니다."
+L.disg_help2 = "넘버패드의 엔터키를 통해서 이 메뉴를 키지않고 변장기를 활성화할 수 있습니다. 콘솔에 'ttt_toggle_disguise' 를 바인드해서 다른 키로 사용할수도 있습니다."
 
 -- Radar tab in equipment menu
+
 L.radar_name = "레이더"
-L.radar_menutitle = "Radar control"
-L.radar_not_owned = "You are not carrying a Radar!"
-L.radar_scan = "Perform scan"
-L.radar_auto = "Auto-repeat scan"
-L.radar_help = "Scan results show for {num} seconds, after which the Radar will have recharged and can be used again."
-L.radar_charging = "Your Radar is still charging!"
+L.radar_menutitle = "레이더 컨트롤"
+L.radar_not_owned = "당신은 레이저를 가지고 있지 않습니다!"
+L.radar_scan = "스캔 수행하기"
+L.radar_auto = "자동-반복 스캔"
+L.radar_help = "스캔 결과는 {num} 초 동안 표시되며, 이후에 레이더는 재충전되어 다시 스캔할 수 있습니다."
+L.radar_charging = "레이더가 아직 충전중입니다!"
 
 -- Transfer tab in equipment menu
 L.xfer_name = "전송"
-L.xfer_menutitle = "Transfer credits"
-L.xfer_send = "Send a credit"
+L.xfer_menutitle = "크레딧 전송"
+L.xfer_send = "크레딧 보내기"
 
-L.xfer_no_recip = "Recipient not valid, credit transfer aborted."
-L.xfer_no_credits = "Insufficient credits for transfer."
-L.xfer_success = "Credit transfer to {player} completed."
-L.xfer_received = "{player} has given you {num} credit."
+
+L.xfer_no_recip = "받는 사람이 유효하지 않습니다. 크레딧 전송이 취소됩니다."
+L.xfer_no_credits = "전송할 크레딧이 부족합니다."
+L.xfer_success = "{player} 에게 크레딧을 보냈습니다."
+L.xfer_received = "{player} 가 당신에게 {num} 크레딧을 보냈습니다."
 
 -- Radio tab in equipment menu
 L.radio_name = "라디오"
-L.radio_help = "Click a button to make your Radio play that sound."
-L.radio_notplaced = "You must place the Radio to play sound on it."
+L.radio_help = "라디오가 소리를 재생하게 합니다"
+L.radio_notplaced = "소리를 재생하기위해 라디오를 설치해야만합니다."
+
 
 -- Radio soundboard buttons
 L.radio_button_scream = "비명"
 L.radio_button_expl = "폭발"
-L.radio_button_pistol = "Pistol shots"
-L.radio_button_m16 = "M16 shots"
-L.radio_button_deagle = "Deagle shots"
-L.radio_button_mac10 = "MAC10 shots"
-L.radio_button_shotgun = "Shotgun shots"
-L.radio_button_rifle = "Rifle shot"
-L.radio_button_huge = "H.U.G.E burst"
-L.radio_button_c4 = "C4 beeping"
-L.radio_button_burn = "Burning"
-L.radio_button_steps = "발자국"
+L.radio_button_pistol = "파이브-세븐 발사음"
+L.radio_button_m16 = "M16 발사음"
+L.radio_button_deagle = "Deagle 발사음"
+L.radio_button_mac10 = "MAC10 발사음"
+L.radio_button_shotgun = "샷건 발사음"
+L.radio_button_rifle = "소총 발사음"
+L.radio_button_huge = "H.U.G.E 연발음"
+L.radio_button_c4 = "C4 소리"
+L.radio_button_burn = "타는 소리"
+L.radio_button_steps = "발소리"
 
 -- Intro screen shown after joining
-L.intro_help = "If you're new to the game, press F1 for instructions!"
+L.intro_help = "만약 게임이 처음이라면, F1 을 눌러보세요!"
 
 -- Radiocommands/quickchat
-L.quick_title = "Quickchat keys"
+L.quick_title = "빠른 채팅 키"
 
-L.quick_yes = "Yes."
-L.quick_no = "No."
-L.quick_help = "Help!"
-L.quick_imwith = "I'm with {player}."
-L.quick_see = "I see {player}."
-L.quick_suspect = "{player} acts suspicious."
-L.quick_traitor = "{player} is a Traitor!"
-L.quick_inno = "{player} is innocent."
-L.quick_check = "Anyone still alive?"
+L.quick_yes = "네."
+L.quick_no = "아니요."
+L.quick_help = "도와주세요!"
+L.quick_imwith = "저는 {player} 님과 함께 있습니다."
+L.quick_see = "저는 {player} 님을 보고있습니다."
+L.quick_suspect = "{player} 님이 수상해보입니다."
+L.quick_traitor = "{player} 님이 트레이터입니다!"
+L.quick_inno = "{player} 님은 이노센트입니다."
+L.quick_check = "다들 살아있나요?"
 
 -- {player} in the quickchat text normally becomes a player nickname, but can
 -- also be one of the below.  Keep these lowercase.
-L.quick_nobody = "nobody"
-L.quick_disg = "someone in disguise"
-L.quick_corpse = "an unidentified body"
-L.quick_corpse_id = "{player}'s corpse"
+L.quick_nobody = "아무것도 아님"
+L.quick_disg = "변장한 누군가"
+L.quick_corpse = "미조사된 시체"
+L.quick_corpse_id = "{player} 님의 시체"
 
 -- Body search window
-L.search_title = "Body Search Results"
-L.search_info = "Information"
-L.search_confirm = "Confirm Death"
-L.search_call = "Call Detective"
+L.search_title = "시체 조사 결과"
+L.search_info = "정보"
+L.search_confirm = "사망 알림"
+L.search_call = "탐정 호출"
 
 -- Descriptions of pieces of information found
 L.search_nick = "This is the body of {player}."
