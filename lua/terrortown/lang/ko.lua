@@ -31,29 +31,29 @@ L.round_started = "라운드가 시작되었습니다!"
 L.round_restart = "관리자에 의해 라운드가 강제로 재시작되었습니다."
 
 L.round_traitors_one = "당신은 트레이터입니다, 동료는 없습니다."
-L.round_traitors_more = "당신은 트레이터입니다, 당신의 동료: {names}"
+L.round_traitors_more = "당신은 트레이터입니다, 당신의 동료들은: {names}"
 
-L.win_time = "시간 초과. 트레이터 패배"
-L.win_traitors = "트레이터 승리"
-L.win_innocents = "이노센트 승리"
+L.win_time = "시간 초과, 트레이터 패배."
+L.win_traitors = "트레이터 승리!"
+L.win_innocents = "이노센트 승리!"
 L.win_nones = "무승부!"
 L.win_showreport = "{num} 초 동안 리포트가 보여집니다.."
 
-L.limit_round      = "라운드 제한에 도달했습니다. {mapname} 로 맵이 변경됩니다."
-L.limit_time       = "라운드 제한시간에 도달했습니다. {mapname} 로 맵이 변경됩니다."
+L.limit_round      = "라운드 제한에 도달했습니다. 곧 {mapname} 로 맵이 변경됩니다."
+L.limit_time       = "라운드 제한 시간에 도달했습니다. 곧 {mapname} 로 맵이 변경됩니다."
 L.limit_left       = "맵이 {mapname}으로 바뀔 때까지 {num} 라운드 또는 {time} 분 남았습니다."
 
 -- Credit awards
 L.credit_all = "당신의 팀은 보상으로 {num} 개의 크레딧을 지급받았습니다."
-L.credit_kill = "당신은 {role} 를 사살한 보상으로 {num} 개의 크레딧을 지급받았습니다.."
+L.credit_kill = "당신은 {role} 를 사살한 보상으로 {num} 개의 크레딧을 지급받았습니다."
 
 -- Karma
-L.karma_dmg_full   = "당신의 카르마 {amount} 입니다, 패널티가 없습니다!"
-L.karma_dmg_other  = "당신의 카르마 {amount} 입니다. 당신이 가하는 피해가 {num}% 감소합니다."
+L.karma_dmg_full   = "당신의 카르마는 {amount} 입니다, 대미지 패널티가 없습니다!"
+L.karma_dmg_other  = "당신의 카르마는 {amount} 입니다. 당신이 가하는 피해가 {num}% 감소합니다."
 
 -- Body identification messages
-L.body_found = "{finder} 님이 {victim} 의 시체를 발견하였습니다. {role}"
-L.body_found_team = "{finder} found the body of {victim}. {role} ({team})"
+L.body_found = "{finder} 님이 {victim} 님의 시체를 발견하였습니다. {role}"
+L.body_found_team = "{finder} 님이 {victim} 님의 시체를 발견하였습니다. {role} ({team})"
 
 -- The {role} in body_found will be replaced by one of the following:
 L.body_found_traitor = "그는 트레이터였습니다!"
@@ -62,8 +62,8 @@ L.body_found_inno = "그는 이노센트였습니다."
 
 L.body_confirm = "{finder} 가 {victim} 의 사망 사실을 알렸습니다."
 
-L.body_call = "{player} 가 {victim} 의 시체를 조사하기 위해 탐정을 호출 하였습니다!"
-L.body_call_error = "탐정에게 호출하기전에 시체의 사망 사실을 알려야합니다!"
+L.body_call = "{player} 가 {victim} 의 시체를 조사하기 위해 탐정을 호출하였습니다!"
+L.body_call_error = "탐정에게 호출하기 전에 시체의 사망 사실을 알려야합니다!"
 
 L.body_burning = "아야! 이 시체는 불에 타고있습니다!"
 L.body_credits = "당신은 {num} 개의 크레딧을 시체에서 찾았습니다!"
@@ -82,15 +82,15 @@ L.equip_tabtitle = "장비 구매"
 
 L.equip_status = "구매 상태"
 L.equip_cost = "당신은 {num} 개의 크레딧이 남아있습니다."
-L.equip_help_cost = "장비를 구매하기 위해선 한 개의 크레딧을 지불해야합니다."
+L.equip_help_cost = "장비를 구매하기 위해선 한 개의 크레딧을 지불해야 합니다."
 
 L.equip_help_carry = "여유 공간이 부족해 구매할 수 없습니다."
 L.equip_carry = "이 장비를 구매할 수 있습니다."
 L.equip_carry_own = "이 장비를 이미 소지하고 있습니다."
 L.equip_carry_slot = "이미 {slot} 슬롯에 물건을 소지하고 있습니다."
-L.equip_carry_minplayers = "이 장비를 구매하기위한 서버의 플레이어 수가 부족합니다."
+L.equip_carry_minplayers = "이 장비를 구매하기 위한 서버의 플레이어 수가 부족합니다."
 
-L.equip_help_stock = "일부 무기는 라운드당 한 번만 구매할 수 있습니다."
+L.equip_help_stock = "일부 무기는 라운드 당 한 번만 구매할 수 있습니다."
 L.equip_stock_deny = "이 물건은 재고가 없습니다."
 L.equip_stock_ok = "이 물건은 재고가 있습니다."
 
@@ -104,40 +104,40 @@ L.equip_confirm = "장비 구입"
 
 -- Disguiser tab in equipment menu
 L.disg_name = "변장기"
-L.disg_menutitle = "변장기 컨트롤"
-L.disg_not_owned = "당신은 위장기를 가지고 있지 않습니다!"
+L.disg_menutitle = "변장기 조정"
+L.disg_not_owned = "당신은 변장기를 가지고 있지 않습니다!"
 L.disg_enable = "변장 활성화"
 
-L.disg_help1 = "변장기를 활성화 한동안, 다른 사람들이 당신의 이름, 카르마 건강 상태를 볼 수 없게합니다. 또한, 탐정의 레이더에 감지되지 않습니다."
-L.disg_help2 = "넘버패드의 엔터키를 통해서 이 메뉴를 키지않고 변장기를 활성화할 수 있습니다. 콘솔에 'ttt_toggle_disguise' 를 바인드해서 다른 키로 사용할수도 있습니다."
+L.disg_help1 = "변장기를 활성화한 동안 다른 사람들이 당신의 이름, 카르마, 건강 상태를 볼 수 없게 합니다. 또한 탐정의 레이더에 감지되지 않습니다."
+L.disg_help2 = "넘패드의 엔터키를 통해 메뉴를 켜지 않고 변장기를 활성화할 수 있습니다. 콘솔에 'ttt_toggle_disguise' 를 바인드해 다른 키로 사용할 수도 있습니다."
 
 -- Radar tab in equipment menu
 L.radar_name  = "레이더"
-L.radar_menutitle = "레이더 컨트롤"
-L.radar_not_owned = "당신은 레이저를 가지고 있지 않습니다!"
-L.radar_scan = "스캔 수행하기"
-L.radar_auto = "자동-반복 스캔"
-L.radar_help = "스캔 결과는 {num} 초 동안 표시되며, 이후에 레이더는 재충전되어 다시 스캔할 수 있습니다."
-L.radar_charging = "레이더가 아직 충전중입니다!"
+L.radar_menutitle = "레이더 조정"
+L.radar_not_owned = "당신은 레이더를 가지고 있지 않습니다!"
+L.radar_scan = "스캔 수행"
+L.radar_auto = "자동 반복 스캔 활성화/"
+L.radar_help = "스캔 결과는 {num} 초 동안 표시되며, 이후 레이더는 재충전되어 다시 스캔할 수 있습니다."
+L.radar_charging = "레이더가 아직 충전 중입니다!"
 
 -- Transfer tab in equipment menu
 L.xfer_name = "전송"
 L.xfer_menutitle = "크레딧 전송"
 L.xfer_send = "크레딧 보내기"
 
-L.xfer_no_recip = "받는 사람이 유효하지 않습니다. 크레딧 전송이 취소됩니다."
-L.xfer_no_credits = "전송할 크레딧이 부족합니다."
+L.xfer_no_recip = "크레딧 수신자가 유효하지 않습니다. 크레딧 전송이 취소됩니다."
+L.xfer_no_credits = "전송하기 위한 크레딧이 부족합니다."
 L.xfer_success = "{player} 에게 크레딧을 보냈습니다."
-L.xfer_received = "{player} 가 당신에게 {num} 크레딧을 보냈습니다."
+L.xfer_received = "{player} 가 당신에게 {num} 개의 크레딧을 보냈습니다."
 
 -- Radio tab in equipment menu
 L.radio_name = "라디오"
-L.radio_help = "라디오가 소리를 재생하게 합니다"
-L.radio_notplaced = "소리를 재생하기위해 라디오를 설치해야만합니다."
+L.radio_help = "버튼을 클릭하면 라디오가 선택한 소리를 재생하게 합니다"
+L.radio_notplaced = "소리를 재생하기 위해선 라디오를 설치해야만 합니다."
 
 -- Radio soundboard buttons
 L.radio_button_scream = "비명"
-L.radio_button_expl = "폭발"
+L.radio_button_expl = "폭발음"
 L.radio_button_pistol = "파이브-세븐 발사음"
 L.radio_button_m16 = "M16 발사음"
 L.radio_button_deagle = "Deagle 발사음"
@@ -145,29 +145,29 @@ L.radio_button_mac10 = "MAC10 발사음"
 L.radio_button_shotgun = "샷건 발사음"
 L.radio_button_rifle = "소총 발사음"
 L.radio_button_huge = "H.U.G.E 연발음"
-L.radio_button_c4 = "C4 소리"
-L.radio_button_burn = "타는 소리"
+L.radio_button_c4 = "C4 경고음"
+L.radio_button_burn = "불타는 소리"
 L.radio_button_steps = "발소리"
 
 -- Intro screen shown after joining
-L.intro_help = "만약 게임이 처음이라면, F1 을 눌러보세요!"
+L.intro_help = "만약 게임 플레이가 처음이라면, F1 을 눌러보세요!"
 
 -- Radiocommands/quickchat
-L.quick_title = "빠른 채팅 키"
+L.quick_title = "빠른 대화 키"
 
 L.quick_yes = "네."
 L.quick_no = "아니요."
 L.quick_help = "도와주세요!"
 L.quick_imwith = "저는 {player} 님과 함께 있습니다."
-L.quick_see = "저는 {player} 님을 보고있습니다."
-L.quick_suspect = "{player} 님이 수상해보입니다."
+L.quick_see = "저는 {player} 님을 보고 있습니다."
+L.quick_suspect = "{player} 님이 수상해 보입니다."
 L.quick_traitor = "{player} 님이 트레이터입니다!"
 L.quick_inno = "{player} 님은 이노센트입니다."
 L.quick_check = "다들 살아있나요?"
 
 -- {player} in the quickchat text normally becomes a player nickname, but can
 -- also be one of the below.  Keep these lowercase.
-L.quick_nobody = "아무것도 아님"
+L.quick_nobody = "아무도 아님"
 L.quick_disg = "변장한 누군가"
 L.quick_corpse = "미조사된 시체"
 L.quick_corpse_id = "{player} 님의 시체"
@@ -179,7 +179,7 @@ L.search_confirm = "사망 알림"
 L.search_call = "탐정 호출"
 
 -- Descriptions of pieces of information found
-L.search_nick = "이 시체는 {player} 의 것입니다."
+L.search_nick = "이 시체는 {player} 님의 것입니다."
 
 L.search_role_traitor = "이 사람은 트레이터였습니다!"
 L.search_role_det = "이 사람은 탐정이었습니다."
@@ -189,33 +189,33 @@ L.search_words = "그는 죽기직전 유언을 남겼습니다: '{lastwords}'"
 L.search_armor = "그는 방탄복을 입고 있었습니다."
 L.search_disg = "그는 변장기를 가지고 있었습니다."
 L.search_radar = "그는 레이더를 가지고 있었습니다. 더이상 작동하지는 않습니다."
-L.search_c4 = "주머니에서 메모를 발견했습니다. 폭탄을 안전하게 제거하려면 {num} 번째 와이어를 잘라라."
+L.search_c4 = "주머니에서 메모를 발견했습니다: '폭탄을 안전하게 제거하려면 {num} 번째 와이어를 잘라야 한다.'"
 
-L.search_dmg_crush = "이 시체는 프롭으로 인해 죽었습니다."
+L.search_dmg_crush = "이 시체는 프롭으로 인해 온 몸이 부숴졌습니다."
 L.search_dmg_bullet = "이 시체는 총을 맞아 죽었습니다."
-L.search_dmg_fall = "이 시체는 높은곳으로부터 떨어져 죽었습니다."
+L.search_dmg_fall = "이 시체는 높은 곳으로부터 떨어져 죽었습니다."
 L.search_dmg_boom = "이 시체는 폭발로 인해 죽었습니다."
 L.search_dmg_club = "이 시체는 빠루에 맞아 죽었습니다."
 L.search_dmg_drown = "이 시체는 익사했습니다."
-L.search_dmg_stab = "이 시체는 날카로운 무언가에 의해 사망했습니다."
-L.search_dmg_burn = "이 시체는 불에 타서 죽었습니다..."
+L.search_dmg_stab = "이 시체는 날카로운 무언가에 의해 죽었습니다."
+L.search_dmg_burn = "이 시체는 불에 타서 죽었습니다."
 L.search_dmg_tele = "이 시체는 텔포킬 당한듯 ㅋㅋ"
 L.search_dmg_car = "이 시체는 차에 치여 사망했습니다."
 L.search_dmg_other = "이 시체는 사인을 알 수 없습니다."
 
-L.search_weapon = "It appears a {weapon} was used to kill them."
-L.search_head = "The fatal wound was a headshot. No time to scream."
-L.search_time = "They died roughly {time} before you conducted the search."
-L.search_dna = "Retrieve a sample of the killer's DNA with a DNA Scanner. The DNA sample will decay roughly {time} from now."
+L.search_weapon = "이 시체는 {weapon} 에 의해 죽은 듯이 보입니다."
+L.search_head = "이 시체는 헤드샷에 맞아 죽은 듯이 보입니다."
+L.search_time = "이 시체는 당신이 약 {time} 전에 죽은 듯이 보입니다."
+L.search_dna = "DNA 스캐너를 이용해 살인자의 DNA를 추적하세요. 이 시체에 남은 DNA는 약 {time} 후에 부패될 것입니다."
 
-L.search_kills1 = "You found a list of kills that confirms the death of {player}."
-L.search_kills2 = "You found a list of kills with these names:"
-L.search_eyes = "Using your detective skills, you identified the last person they saw: {player}. The killer, or a coincidence?"
+L.search_kills1 = "당신은 살해된 사람들의 목록을 발견했고, {player} 님의 죽음을 확인했습니다."
+L.search_kills2 = "당신은 살해된 사람들의 목록을 발견했습니다. 목록에 남은 피해자들은:"
+L.search_eyes = "탁월한 수사능력을 발휘해, 당신은 죽은 사람이 마지막으로 목격한 사람이 {player} 임을 알아냈습니다."
 
 -- Scoreboard
 L.sb_playing = "다음 서버에서 플레이 중..."
 L.sb_mapchange = "맵 변경까지 {num} 라운드 혹은 {time}"
-L.sb_mapchange_disabled = "Session limits are disabled."
+L.sb_mapchange_disabled = "맵 변경이 비활성화됨"
 
 L.sb_mia = "실종 상태"
 L.sb_confirmed = "사망 확인"
@@ -225,242 +225,242 @@ L.sb_deaths = "사망"
 L.sb_score = "점수"
 L.sb_karma = "카르마"
 
-L.sb_info_help = "Search this player's body, and you can review the results here."
+L.sb_info_help = "이 시체를 조사하여 각종 정보들을 알아낼 수 있습니다."
 
-L.sb_tag_friend = "안전"
-L.sb_tag_susp = "수상"
-L.sb_tag_avoid = "위험"
-L.sb_tag_kill = "사살"
-L.sb_tag_miss = "실종"
+L.sb_tag_friend = "안전함"
+L.sb_tag_susp = "수상함"
+L.sb_tag_avoid = "위험함"
+L.sb_tag_kill = "사살됨"
+L.sb_tag_miss = "실종됨"
 
 -- Equipment actions, like buying and dropping
-L.buy_no_stock = "이 물품은 재고가 없습니다: 한 라운드에 구매가능한 횟수를 초과했습니다."
-L.buy_pending = "주문하고자하는 물품을 이미 전송중입니다, 받을때까지 기다려주세요."
+L.buy_no_stock = "이 물품은 재고가 없습니다! 한 라운드에 구매 가능한 횟수를 초과했습니다."
+L.buy_pending = "주문하고자 하는 물품을 이미 전송중입니다, 받을 때까지 기다려주세요."
 L.buy_received = "구매한 물품을 받았습니다."
 
 L.drop_no_room = "무기를 버리기에 충분한 공간이 없습니다!"
 
-L.disg_turned_on = "변장기 활성화!"
-L.disg_turned_off = "변장기 비활성화."
+L.disg_turned_on = "변장기 활성화됨"
+L.disg_turned_off = "변장기 비활성화됨"
 
 -- Equipment item descriptions
-L.item_passive = "Passive effect item"
-L.item_active = "Active use item"
-L.item_weapon = "Weapon"
+L.item_passive = "패시브 아이템"
+L.item_active = "액티브 아이템"
+L.item_weapon = "무기"
 
-L.item_armor = "Body Armor"
+L.item_armor = "방탄복"
 L.item_armor_desc = [[
-Reduces bullet, fire and explosion damage. Depletes over time.
+총알, 화염, 폭발 대미지를 감소시킵니다. 방탄률은 시간이 지남에 따라 감소합니다. Reduces bullet, fire and explosion damage. Depletes over time.
 
-It can be purchased multiple times. After reaching a specific armor value, the armor becomes stronger.]]
+여러 번 구매할 수 있습니다. 방탄률이 일정 수준 이상을 넘어가면 방탄복이 더욱 강해집니다. It can be purchased multiple times. After reaching a specific armor value, the armor becomes stronger.]]
 
-L.item_radar = "Radar"
+L.item_radar = "레이더"
 L.item_radar_desc = [[
-Allows you to scan for life signs.
+주변의 살아있는 사람들을 스캔할 수 있게 해 주는 도구입니다.
 
-Starts automatic scans as soon as you buy it. Configure it in Radar tab of this menu.]]
+구매한 직후 자동으로 스캔이 시작됩니다. 메뉴의 레이더 탭에서 자동 스캔을 켜고 끌 수 있습니다.]]
 
-L.item_disg = "Disguiser"
+L.item_disg = "변장기"
 L.item_disg_desc = [[
-Hides your ID info while on. Also avoids being the person last seen by a victim.
+활성화한 동안 당신의 이름과 정보를 감출 수 있게 해 주는 도구입니다. 사망자의 마지막 목격자가 당신일 경우 이 또한 감춰줍니다.
 
-Toggle in the Disguise tab of this menu or press Numpad Enter.]]
+넘패드의 Enter를 누르거나 메뉴의 변장 탭에서 변장을 켜고 끌 수 있습니다.]]
 
 -- C4
-L.c4_hint = "Press {usekey} to arm or disarm."
-L.c4_disarm_warn = "A C4 explosive you planted has been disarmed."
-L.c4_armed = "You have successfully armed the bomb."
-L.c4_disarmed = "You have successfully disarmed the bomb."
-L.c4_no_room = "You cannot carry this C4."
+L.c4_hint = "{usekey} 키를 눌러 C4를 활성화하거나 해체하십시오."
+L.c4_disarm_warn = "당신이 설치한 C4가 해체되었습니다."
+L.c4_armed = "당신은 C4를 성공적으로 활성화했습니다."
+L.c4_disarmed = "당신은 C4를 성공적으로 해체했습니다"
+L.c4_no_room = "이 C4를 들고 다닐 공간이 부족합니다."
 
-L.c4_desc = "Powerful timed explosive."
+L.c4_desc = "타이머가 있는 강력한 폭발물입니다."
 
-L.c4_arm = "Arm C4"
-L.c4_arm_timer = "Timer"
-L.c4_arm_seconds = "Seconds until detonation:"
-L.c4_arm_attempts = "In disarm attempts, {num} of the 6 wires will cause instant detonation when cut."
+L.c4_arm = "C4 활성화"
+L.c4_arm_timer = "타이머"
+L.c4_arm_seconds = "C4가 폭발할 때까지:"
+L.c4_arm_attempts = "C4의 해체를 시도할 경우 와이어 6개 중 {num} 개는 잘랐을 때 즉시 C4를 폭발시킵니다. In disarm attempts, {num} of the 6 wires will cause instant detonation when cut."
 
-L.c4_remove_title = "Removal"
-L.c4_remove_pickup = "Pick up C4"
-L.c4_remove_destroy1 = "Destroy C4"
-L.c4_remove_destroy2 = "Confirm: destroy"
+L.c4_remove_title = "C4 제거 Removal"
+L.c4_remove_pickup = "C4 들기 Pick up C4"
+L.c4_remove_destroy1 = "C4 파괴 Destroy C4"
+L.c4_remove_destroy2 = "정말 C4를 파괴합니까? Confirm: destroy"
 
-L.c4_disarm = "Disarm C4"
-L.c4_disarm_cut = "Click to cut wire {num}"
+L.c4_disarm = "C4 해체"
+L.c4_disarm_cut = "클릭하여 와이어 {num} 번을 자릅니다. Click to cut wire {num}"
 
-L.c4_disarm_owned = "Cut a wire to disarm the bomb. It's your bomb, so every wire will disarm it."
-L.c4_disarm_other = "Cut a safe wire to disarm the bomb. It will explode if you get it wrong!"
+L.c4_disarm_owned = "C4를 해체하기 위해 와이어를 자르십시오. 이 C4는 당신의 것이므로 모든 와이어가 안전합니다."
+L.c4_disarm_other = "C4를 해체하기 위해 안전한 와이어를 자르십시오. 잘못된 와이어를 자르면 폭발합니다!"
 
-L.c4_status_armed = "ARMED"
-L.c4_status_disarmed = "DISARMED"
+L.c4_status_armed = "활성화됨"
+L.c4_status_disarmed = "해체됨"
 
 -- Visualizer
 L.vis_name = "Visualizer"
-L.vis_hint = "Press {usekey} to pick up (Detectives only)."
+L.vis_hint = "{usekey} 키를 눌러 들기 (탐정 전용)."
 
 L.vis_desc = [[
 Crime scene visualization device.
 
-Analyzes a corpse to show how the victim was killed, but only if they died of gunshot wounds.]]
+시체를 분석하여 시체가 총에 맞아 죽었을 경우 어떻게 죽었는지 알려줍니다. Analyzes a corpse to show how the victim was killed, but only if they died of gunshot wounds.]]
 
 -- Decoy
-L.decoy_name = "Decoy"
-L.decoy_no_room = "You cannot carry this decoy."
-L.decoy_broken = "Your Decoy has been destroyed!"
+L.decoy_name = "미끼"
+L.decoy_no_room = "이 미끼를 들기 위한 공간이 부족합니다."
+L.decoy_broken = "당신의 미끼가 파괴되었습니다!"
 
-L.decoy_short_desc = "This decoy shows a fake radar sign visible for other teams"
-L.decoy_pickup_wrong_team = "You can't pick it up as it belongs to a different team"
+L.decoy_short_desc = "미끼는 다른 팀의 레이더에 포착되는 가짜 신호를 남깁니다."
+L.decoy_pickup_wrong_team = "이 미끼는 다른 팀의 것이므로 들 수 없습니다."
 
 L.decoy_desc = [[
-Shows a fake radar sign to other teams, and makes the DNA scanner show the location of the Decoy if someone scans for your DNA.]]
+다른 팀의 레이더에 포착되는 가짜 신호를 남기는 도구입니다. 또한 당신의 DNA가 스캔됐을 때 DNA 스캐너에 당신의 위치 대신 미끼의 위치가 드러나게 합니다.]]
 
 -- Defuser
-L.defuser_name = "Defuser"
-L.defuser_help = "{primaryfire} defuses targeted C4."
+L.defuser_name = "폭발물 해체기"
+L.defuser_help = "{primaryfire} 버튼을 눌러 지정된 C4를 해체할 수 있습니다."
 
 L.defuser_desc = [[
-Instantly defuse a C4 explosive.
+C4를 즉시 해체할 수 있게 해 주는 도구입니다.
 
-Unlimited uses. C4 will be easier to notice if you carry this.]]
+무한정 사용이 가능합니다. 이 도구를 들고 있을 시 C4가 더 잘 보이게 됩니다.]]
 
 -- Flare gun
-L.flare_name = "Flare gun"
+L.flare_name = "조명탄 발사기"
 
 L.flare_desc = [[
-Can be used to burn corpses so that they are never found. Limited ammo.
+시체를 불태워 누군가 조사를 하지 못하게 해 주는 도구입니다. 무한 탄약입니다.
 
-Burning a corpse makes a distinct sound.]]
+시체를 불태우면 구분하기 쉬운 소음이 발생합니다.]]
 
 -- Health station
-L.hstation_name = "Health Station"
+L.hstation_name = "치료기"
 
-L.hstation_broken = "Your Health Station has been destroyed!"
-L.hstation_help = "{primaryfire} places the Health Station."
+L.hstation_broken = "당신의 치료기가 파괴되었습니다!"
+L.hstation_help = "{primaryfire} 버튼을 눌러 치료기를 배치하십시오."
 
 L.hstation_desc = [[
-Allows people to heal when placed.
+배치됐을 때 사람들이 자신을 치료할 수 있게 해 주는 도구입니다.
 
-Slow recharge. Anyone can use it, and it can be damaged. Can be checked for DNA samples of its users.]]
+재충전 속도가 느립니다. 누구나 쓸 수 있고 대미지를 입어 파괴될 수 있습니다. 또한 사용자의 DNA 샘플이 남습니다. Slow recharge. Anyone can use it, and it can be damaged. Can be checked for DNA samples of its users.]]
 
 -- Knife
-L.knife_name = "Knife"
-L.knife_thrown = "Thrown knife"
+L.knife_name = "칼"
+L.knife_thrown = "투척된 칼"
 
 L.knife_desc = [[
-Kills wounded targets instantly and silently, but only has a single use.
+다친 대상을 조용하고 빠르게 죽입니다. 대신 한 번만 사용할 수 있습니다.
 
-Can be thrown using alternate fire.]]
+보조 발사 키를 이용해 던질 수 있습니다.]]
 
 -- Poltergeist
 L.polter_desc = [[
-Plants thumpers on objects to shove them around violently.
+물체를 강력하게 밀칠 수 있는 장치를 설치합니다.
 
-The energy bursts damage people in close proximity.]]
+밀쳐지는 물체와 가깝게 근접한 사람은 대미지를 입습니다.]]
 
 -- Radio
-L.radio_broken = "Your Radio has been destroyed!"
-L.radio_help_pri = "{primaryfire} places the Radio."
+L.radio_broken = "당신의 라디오가 파괴되었습니다!"
+L.radio_help_pri = "{primaryfire} 버튼을 눌러 라디오를 설치하십시오."
 
 L.radio_desc = [[
-Plays sounds to distract or deceive.
+설치하여 다른 사람들을 유인하거나 속이기 위한 소리를 재생시키는 도구입니다.
 
-Place the radio somewhere, and then play sounds on it using the Radio tab in this menu.]]
+라디오를 설치하고 메뉴의 라디오 탭에서 재생할 소리를 고를 수 있습니다.]]
 
 -- Silenced pistol
-L.sipistol_name = "Silenced Pistol"
+L.sipistol_name = "소음 권총"
 
 L.sipistol_desc = [[
-Low-noise handgun, uses normal pistol ammo.
+소음이 적게 발생하는 권총입니다. 일반 권총탄을 사용합니다.
 
-Victims will not scream when killed.]]
+이 무기에 죽은 대상은 비명을 지르지 않습니다.]]
 
 -- Newton launcher
-L.newton_name = "Newton launcher"
+L.newton_name = "중력 발사기"
 
 L.newton_desc = [[
-Push people from a safe distance.
+안전한 거리에서 사람을 밀칠 수 있게 해 주는 도구입니다.
 
-Infinite ammo, but slow to fire.]]
+무한 탄약이지만 발사 속도가 느립니다.]]
 
 -- Binoculars
-L.binoc_name = "Binoculars"
+L.binoc_name = "쌍안경"
 
 L.binoc_desc = [[
-Zoom in on corpses and identify them from a long distance away.
+시체를 조준하여 먼 거리에서 시체를 조사할 수 있게 해 주는 도구입니다.
 
-Unlimited uses, but identification takes a few seconds.]]
+무한정 사용 가능합니다. 시체를 조사하는 데에는 조금의 시간이 소요됩니다.]]
 
 -- UMP
 L.ump_desc = [[
-Experimental SMG that disorients targets.
+대상에게 혼란을 야기하는 실험적인 SMG입니다. Experimental SMG that disorients targets.
 
-Uses standard SMG ammo.]]
+일반적인 SMG 탄약을 사용합니다.]]
 
 -- DNA scanner
-L.dna_name = "DNA scanner"
-L.dna_notfound = "No DNA sample found on target."
-L.dna_limit = "Storage limit reached. Remove old samples to add new ones."
-L.dna_decayed = "DNA sample of the killer has decayed."
-L.dna_killer = "Collected a sample of the killer's DNA from the corpse!"
-L.dna_duplicate = "Match! You already have this DNA sample in your scanner."
-L.dna_no_killer = "The DNA could not be retrieved (killer disconnected?)."
-L.dna_armed = "This bomb is live! Disarm it first!"
-L.dna_object = "Collected a sample of the last owner from the object."
-L.dna_gone = "DNA not detected in area."
+L.dna_name = "DNA 스캐너"
+L.dna_notfound = "대상에게서 DNA 샘플을 찾지 못했습니다."
+L.dna_limit = "DNA 샘플을 보관할 수 있는 최대 한도에 도달했습니다. 새 샘플을 얻기 위해 다른 샘플을 파기하십시오."
+L.dna_decayed = "살인자의 DNA 샘플이 부패했습니다."
+L.dna_killer = "시체에게서 살인자의 DNA를 채취했습니다!"
+L.dna_duplicate = "당신은 이미 같은 DNA를 스캐너에 보관하고 있습니다!"
+L.dna_no_killer = "DNA를 채취할 수 없습니다 (살인자가 나갔을 수 있습니다)."
+L.dna_armed = "폭탄이 활성화되어 있습니다! 먼저 해체하십시오!"
+L.dna_object = "물체를 마지막으로 지니고 있던 사람의 DNA를 채취했습니다."
+L.dna_gone = "일치하는 DNA가 주변에서 발견되지 않았습니다."
 
 L.dna_desc = [[
-Collect DNA samples from things and use them to find the DNA's owner.
+여러 대상에게서 DNA 샘플을 채취해 DNA와 일치하는 사람을 추적하게 해 주는 도구입니다.
 
-Use on fresh corpses to get the killer's DNA and track them down.]]
+살해된 지 얼마 되지 않은 시체에 사용해 살인자를 추적할 수 있습니다.]]
 
 -- Magneto stick
-L.magnet_name = "Magneto-stick"
-L.magnet_help = "{primaryfire} to attach body to surface."
+L.magnet_name = "마법의 자석 막대기"
+L.magnet_help = "{primaryfire} 버튼을 눌러 대상을 고정"
 
 -- Grenades and misc
-L.grenade_smoke = "Smoke grenade"
-L.grenade_fire = "Incendiary grenade"
+L.grenade_smoke = "연막탄"
+L.grenade_fire = "소이탄"
 
-L.unarmed_name = "Holstered"
-L.crowbar_name = "Crowbar"
-L.pistol_name = "Pistol"
-L.rifle_name = "Rifle"
-L.shotgun_name = "Shotgun"
+L.unarmed_name = "비무장"
+L.crowbar_name = "빠루"
+L.pistol_name = "권총"
+L.rifle_name = "소총"
+L.shotgun_name = "샷건"
 
 -- Teleporter
-L.tele_name = "Teleporter"
-L.tele_failed = "Teleport failed."
-L.tele_marked = "Teleport location marked."
+L.tele_name = "텔레포터"
+L.tele_failed = "텔레포트 실패"
+L.tele_marked = "텔레포트 위치 지정됨"
 
-L.tele_no_ground = "Cannot teleport unless standing on solid ground!"
-L.tele_no_crouch = "Cannot teleport while crouched!"
-L.tele_no_mark = "No location marked. Mark a destination before teleporting."
+L.tele_no_ground = "땅 위에 서 있지 않으면 텔레포트가 불가능합니다!"
+L.tele_no_crouch = "앉은 상태에선 텔레포트가 불가능합니다!"
+L.tele_no_mark = "위치가 지정되지 않았습니다. 텔레포트하기 위한 위치를 지정해 주십시오."
 
-L.tele_no_mark_ground = "Cannot mark a teleport location unless standing on solid ground!"
-L.tele_no_mark_crouch = "Cannot mark a teleport location while crouched!"
+L.tele_no_mark_ground = "땅 위에 서 있지 않으면 위치를 지정할 수 없습니다!"
+L.tele_no_mark_crouch = "앉은 상태에선 위치를 지정할 수 없습니다!"
 
-L.tele_help_pri = "Teleports to marked location"
-L.tele_help_sec = "Marks current location"
+L.tele_help_pri = "지정된 위치로 텔레포트"
+L.tele_help_sec = "현재 지점을 텔레포트 위치로 지정"
 
 L.tele_desc = [[
-Teleport to a previously marked spot.
+이전에 지정된 지점에 텔레포트할 수 있게 해주는 도구입니다.
 
-Teleporting makes noise, and the number of uses is limited.]]
+텔레포트는 소음을 발생시킵니다. 텔레포트 할 수 있는 횟수는 제한돼 있습니다.]]
 
 -- Ammo names, shown when picked up
-L.ammo_pistol = "9mm ammo"
+L.ammo_pistol = "9mm 탄약"
 
-L.ammo_smg1 = "SMG ammo"
-L.ammo_buckshot = "Shotgun ammo"
-L.ammo_357 = "Rifle ammo"
-L.ammo_alyxgun = "Deagle ammo"
-L.ammo_ar2altfire = "Flare ammo"
-L.ammo_gravity = "Poltergeist ammo"
+L.ammo_smg1 = "SMG 탄약"
+L.ammo_buckshot = "샷건 탄약"
+L.ammo_357 = "소총 탄약"
+L.ammo_alyxgun = "Deagle 탄약"
+L.ammo_ar2altfire = "조명탄"
+L.ammo_gravity = "폴터가이스트 탄약"
 
 -- Round status
-L.round_wait = "대기중"
-L.round_prep = "준비중"
-L.round_active = "라운드 진행중"
+L.round_wait = "대기 중"
+L.round_prep = "준비 중"
+L.round_active = "라운드 진행 중"
 L.round_post = "게임 종료"
 
 -- Health, ammo and time area
@@ -468,98 +468,98 @@ L.overtime = "오버타임"
 L.hastemode = "라운드 시간"
 
 -- TargetID health status
-L.hp_healthy = "건강"
+L.hp_healthy = "건강함"
 L.hp_hurt = "다침"
-L.hp_wounded = "부상"
-L.hp_badwnd = "심각한 부상"
+L.hp_wounded = "부상을 입음"
+L.hp_badwnd = "심각하게 다침"
 L.hp_death = "빈사 상태"
 
 -- TargetID Karma status
-L.karma_max = "정상인"
+L.karma_max = "부처"
 L.karma_high = "정상인"
-L.karma_med = "주의 요망"
-L.karma_low = "위험"
-L.karma_min = "싸이코"
+L.karma_med = "사회부적응자"
+L.karma_low = "완전히 돌아버린 사람"
+L.karma_min = "크레이지 싸이코"
 
 -- TargetID misc
-L.corpse = "Corpse"
-L.corpse_hint = "Press [{usekey}] to search. [{walkkey} + {usekey}] to search covertly."
+L.corpse = "시체"
+L.corpse_hint = "[{usekey}] 키를 눌러 조사하십시오. [{walkkey} + {usekey}] 키를 눌러 조용히 조사하십시오."
 
-L.target_disg = "(disguised)"
-L.target_unid = "Unidentified body"
-L.target_unknown = "A Terrorist"
+L.target_disg = "(변장함)"
+L.target_unid = "미조사된 시체"
+L.target_unknown = "판별 불가능 A Terrorist"
 
-L.target_credits = "Search to receive unspent credits"
+L.target_credits = "조사하여 크레딧을 획득 Search to receive unspent credits"
 
 -- HUD buttons with hand icons that only some roles can see and use
-L.tbut_single = "Single use"
-L.tbut_reuse = "Reusable"
-L.tbut_retime = "Reusable after {num} sec"
-L.tbut_help = "Press [{usekey}] to activate"
+L.tbut_single = "일회용"
+L.tbut_reuse = "재사용 가능"
+L.tbut_retime = "{num} 초 후에 재사용 가능"
+L.tbut_help = "[{usekey}] 키를 눌러 활성화"
 
 -- Spectator muting of living/dead
-L.mute_living = "Living players muted"
-L.mute_specs = "Spectators muted"
-L.mute_all = "All muted"
-L.mute_off = "None muted"
+L.mute_living = "살아있는 플레이어들이 뮤트됨"
+L.mute_specs = "관전자들이 뮤트됨"
+L.mute_all = "모든 사람이 뮤트됨"
+L.mute_off = "뮤트 해제됨"
 
 -- Spectators and prop possession
-L.punch_title = "PUNCH-O-METER"
-L.punch_help = "Move keys or jump: punch object. Crouch: leave object."
-L.punch_bonus = "Your bad score lowered your punch-o-meter limit by {num}"
-L.punch_malus = "Your good score increased your punch-o-meter limit by {num}!"
+L.punch_title = "중력 빙의기"
+L.punch_help = "이동 키나 점프 키를 눌러 물체를 움직임. 앉기 키를 눌러 물체를 나감."
+L.punch_bonus = "당신의 낮은 점수로 인해 중력 빙의기 수가 {num} 개로 제한됐습니다! Your bad score lowered your punch-o-meter limit by {num}"
+L.punch_malus = "당신의 높은 점수로 인해 중력 빙의기 수가 {num} 개로 늘어났습니다! Your good score increased your punch-o-meter limit by {num}!"
 
 -- Info popups shown when the round starts
 L.info_popup_innocent = [[
-You are an innocent Terrorist! But there are traitors around...
-Who can you trust, and who is out to fill you with bullets?
+당신은 무고한 이노센트입니다! 하지만 주변에 트레이터가 돌아다닌다고 합니다...
+누구를 믿고 따를 것인지, 누구한테 총알 세례를 받을 것인지는 당신의 선택에 달려 있습니다.
 
-Watch your back and work with your comrades to get out of this alive!]]
+뒤를 조심하고 동료들과 협력해 살아남으십시오!]]
 
 L.info_popup_detective = [[
-You are a Detective! Terrorist HQ has given you special resources to find the traitors.
-Use them to help the innocent survive, but be careful:
-the traitors will be looking to take you down first!
+당신은 탐정입니다! 트레이터를 찾기 위해 상층부에서 특별한 지원물품들을 보내준다고 합니다...
+지원물품들을 활용해 이노센트들이 살아남을 수 있게 도와주십시오.
+하지만 조심하세요! 트레이터들은 최대한 당신을 먼저 죽이려 시도할 것입니다.
 
-Press {menukey} to receive your equipment!]]
+{menukey} 키를 눌러 지원물품들을 주문하십시오!]]
 
 L.info_popup_traitor_alone = [[
-You are a TRAITOR! You have no fellow traitors this round.
+당신은 트레이터입니다! 아쉽게도 이번 라운드에선 동료 트레이터가 존재하지 않습니다.
 
-Kill all others to win!
+다른 모두를 죽여 승리하십시오!
 
-Press {menukey} to receive your special equipment!]]
+{menukey} 키를 눌러 특별한 장비들을 주문하십시오!]]
 
 L.info_popup_traitor = [[
-You are a TRAITOR! Work with fellow traitors to kill all others.
-But take care, or your treason may be discovered...
+당신은 트레이터입니다! 동료 트레이터들과 협력해 다른 모두를 죽이십시오.
+하지만 조심하십시오, 당신의 배신이 발각될 수도 있습니다...
 
-These are your comrades:
-{traitorlist}
+당신의 동료들은:
+{traitorlist} 입니다.
 
-Press {menukey} to receive your special equipment!]]
+{menukey} 키를 눌러 특별한 장비들을 주문하십시오!]]
 
 -- Various other text
-L.name_kick = "A player was automatically kicked for changing their name during a round."
+L.name_kick = "어떤 호감고닉이 라운드 도중 이름을 바꿔 추방되었습니다."
 
 L.idle_popup = [[
-You were idle for {num} seconds and were moved into Spectator-only mode as a result. While you are in this mode, you will not spawn when a new round starts.
+당신은 {num} 초 동안 움직이지 않아 관전 전용 모드로 전환되었습니다. 관전 전용 모드일 시 새로운 라운드에 스폰되지 않습니다.
 
-You can toggle Spectator-only mode at any time by pressing {helpkey} and unchecking the box in the Settings tab. You can also choose to disable it right now.]]
+{helpkey} 키를 누르고 세팅 탭에서 관전 전용 모드를 켜고 끌 수 있습니다. 아니면 지금 선택할 수도 있습니다.]]
 
-L.idle_popup_close = "Do nothing"
-L.idle_popup_off = "Disable Spectator-only mode now"
+L.idle_popup_close = "아무것도 하지 않음"
+L.idle_popup_off = "관전 전용 모드 끄기"
 
-L.idle_warning = "Warning: you appear to be idle/AFK, and will be made to spectate unless you show activity!"
+L.idle_warning = "경고: 현재 AFK 상태로 계속 움직이지 않을 시 관전 모드로 전환됩니다!"
 
-L.spec_mode_warning = "You are in Spectator Mode and will not spawn when a round starts. To disable this mode, press F1, go to 'Gameplay' and uncheck 'Spectate-only mode'."
+L.spec_mode_warning = "당신은 관전 모드로 전환되어 새로운 라운드에 스폰되지 않습니다. 이 상태를 원하지 않는다면 F1 키를 눌러 '게임플레이' 탭에 간 후 관전 전용 모드를 해제하십시오."
 
 -- Tips panel
-L.tips_panel_title = "Tips"
-L.tips_panel_tip = "Tip:"
+L.tips_panel_title = "힌트"
+L.tips_panel_tip = "힌트:"
 
 -- Tip texts
-L.tip1 = "Traitors can search a corpse silently, without confirming the death, by holding {walkkey} and pressing {usekey} on the corpse."
+L.tip1 = "트레이터는 {walkkey} 를 누른 채로 시체에 대고 {usekey} 키를 눌러 사망 사실을 알리지 않고 시체를 조용히 조사할 수 있습니다."
 
 L.tip2 = "Arming a C4 explosive with a longer timer will increase the number of wires that cause it to explode instantly when an innocent attempts to disarm it. It will also beep softer and less often."
 
