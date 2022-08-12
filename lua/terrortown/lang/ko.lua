@@ -116,7 +116,7 @@ L.radar_name  = "레이더"
 L.radar_menutitle = "레이더 조정"
 L.radar_not_owned = "당신은 레이더를 가지고 있지 않습니다!"
 L.radar_scan = "스캔 수행"
-L.radar_auto = "자동 반복 스캔 활성화/"
+L.radar_auto = "자동 반복 스캔 활성화"
 L.radar_help = "스캔 결과는 {num} 초 동안 표시되며, 이후 레이더는 재충전되어 다시 스캔할 수 있습니다."
 L.radar_charging = "레이더가 아직 충전 중입니다!"
 
