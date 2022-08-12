@@ -10,9 +10,9 @@ L.__alias = "한국어"
 L.lang_name = "한국어 (Korean)"
 
 -- General text used in various places
-L.traitor = "Traitor"
-L.detective = "Detective"
-L.innocent = "Innocent"
+L.traitor = "트레이터"
+L.detective = "탐정"
+L.innocent = "이노센트"
 L.last_words = "Last Words"
 
 L.terrorists = "Terrorists"
@@ -69,12 +69,12 @@ L.body_burning = "Ouch! This corpse is on fire!"
 L.body_credits = "You found {num} credit(s) on the body!"
 
 -- Menus and windows
-L.close = "Close"
-L.cancel = "Cancel"
+L.close = "닫기"
+L.cancel = "취소"
 
 -- For navigation buttons
-L.next = "Next"
-L.prev = "Previous"
+L.next = "다음"
+L.prev = "이전"
 
 -- Equipment buying menu
 L.equip_title = "Equipment"
@@ -96,9 +96,9 @@ L.equip_stock_ok = "This item is in stock."
 
 L.equip_custom = "Custom item added by this server."
 
-L.equip_spec_name = "Name"
-L.equip_spec_type = "Type"
-L.equip_spec_desc = "Description"
+L.equip_spec_name = "이름"
+L.equip_spec_type = "형"
+L.equip_spec_desc = "설명"
 
 L.equip_confirm = "Buy equipment"
 
