@@ -98,13 +98,13 @@ L.equip_stock_ok = "이 물건은 재고가 있습니다."
 L.equip_custom = "Custom item added by this server."
 
 L.equip_spec_name = "이름"
-L.equip_spec_type = "형"
+L.equip_spec_type = "유형"
 L.equip_spec_desc = "설명"
 
 L.equip_confirm = "Buy equipment"
 
 -- Disguiser tab in equipment menu
-L.disg_name = "Disguiser"
+L.disg_name = "변장기"
 L.disg_menutitle = "Disguise control"
 L.disg_not_owned = "You are not carrying a Disguiser!"
 L.disg_enable = "Enable disguise"
@@ -113,7 +113,7 @@ L.disg_help1 = "When your disguise is active, your name, health and Karma do not
 L.disg_help2 = "Press Numpad Enter to toggle the disguise without using the menu. You can also bind a different key to 'ttt_toggle_disguise' using the console."
 
 -- Radar tab in equipment menu
-L.radar_name = "Radar"
+L.radar_name = "레이더더"
 L.radar_menutitle = "Radar control"
 L.radar_not_owned = "You are not carrying a Radar!"
 L.radar_scan = "Perform scan"
@@ -122,7 +122,7 @@ L.radar_help = "Scan results show for {num} seconds, after which the Radar will 
 L.radar_charging = "Your Radar is still charging!"
 
 -- Transfer tab in equipment menu
-L.xfer_name = "Transfer"
+L.xfer_name = "전송"
 L.xfer_menutitle = "Transfer credits"
 L.xfer_send = "Send a credit"
 
@@ -132,13 +132,13 @@ L.xfer_success = "Credit transfer to {player} completed."
 L.xfer_received = "{player} has given you {num} credit."
 
 -- Radio tab in equipment menu
-L.radio_name = "Radio"
+L.radio_name = "라디오"
 L.radio_help = "Click a button to make your Radio play that sound."
 L.radio_notplaced = "You must place the Radio to play sound on it."
 
 -- Radio soundboard buttons
-L.radio_button_scream = "Scream"
-L.radio_button_expl = "Explosion"
+L.radio_button_scream = "비명"
+L.radio_button_expl = "폭발"
 L.radio_button_pistol = "Pistol shots"
 L.radio_button_m16 = "M16 shots"
 L.radio_button_deagle = "Deagle shots"
@@ -148,7 +148,7 @@ L.radio_button_rifle = "Rifle shot"
 L.radio_button_huge = "H.U.G.E burst"
 L.radio_button_c4 = "C4 beeping"
 L.radio_button_burn = "Burning"
-L.radio_button_steps = "Footsteps"
+L.radio_button_steps = "발자국"
 
 -- Intro screen shown after joining
 L.intro_help = "If you're new to the game, press F1 for instructions!"
