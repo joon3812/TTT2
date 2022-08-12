@@ -113,7 +113,7 @@ L.disg_help1 = "When your disguise is active, your name, health and Karma do not
 L.disg_help2 = "Press Numpad Enter to toggle the disguise without using the menu. You can also bind a different key to 'ttt_toggle_disguise' using the console."
 
 -- Radar tab in equipment menu
-L.radar_name = "레이더더"
+L.radar_name = "레이더"
 L.radar_menutitle = "Radar control"
 L.radar_not_owned = "You are not carrying a Radar!"
 L.radar_scan = "Perform scan"
@@ -218,13 +218,13 @@ L.sb_playing = "You are playing on..."
 L.sb_mapchange = "Map changes in {num} rounds or in {time}"
 L.sb_mapchange_disabled = "Session limits are disabled."
 
-L.sb_mia = "Missing In Action"
-L.sb_confirmed = "Confirmed Dead"
+L.sb_mia = "작전 중 실종"
+L.sb_confirmed = "사망 확인"
 
-L.sb_ping = "Ping"
-L.sb_deaths = "Deaths"
-L.sb_score = "Score"
-L.sb_karma = "Karma"
+L.sb_ping = "지연시간"
+L.sb_deaths = "사망"
+L.sb_score = "점수"
+L.sb_karma = "카르마"
 
 L.sb_info_help = "Search this player's body, and you can review the results here."
 
