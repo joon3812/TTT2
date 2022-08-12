@@ -10,89 +10,89 @@ L.__alias = "한국어"
 L.lang_name = "한국어 (Korean)"
 
 -- General text used in various places
-L.traitor = "Traitor"
-L.detective = "Detective"
-L.innocent = "Innocent"
-L.last_words = "Last Words"
+L.traitor = "트레이터"
+L.detective = "탐정"
+L.innocent = "이노센트"
+L.last_words = "유언"
 
-L.terrorists = "Terrorists"
-L.spectators = "Spectators"
-
-L.nones = "No Team"
-L.innocents = "Team Innocent"
-L.traitors = "Team Traitor"
+L.terrorists = "테러리스트"
+L.spectators = "관전자"
+	
+L.nones = "팀 없음"
+L.innocents = "이노센트 팀"
+L.traitors = "트레이터 팀"
 
 -- Round status messages
-L.round_minplayers = "Not enough players to start a new round..."
-L.round_voting = "Vote in progress, delaying new round by {num} seconds..."
-L.round_begintime = "A new round begins in {num} seconds. Prepare yourself."
-L.round_selected = "The Traitors have been selected."
-L.round_started = "The round has begun!"
-L.round_restart = "The round has been forced to restart by an admin."
+L.round_minplayers = "라운드 시작을 위한 플레이어가 충분하지 않습니다..."
+L.round_voting = "투표 진행중, 라운드 시작이 {num} 초 지연됩니다..."
+L.round_begintime = "새로운 라운드가 {num} 초뒤에 시작됩니다. 준비하세요."
+L.round_selected = "트레이터가 선택되었습니다."
+L.round_started = "라운드가 시작되었습니다!"
+L.round_restart = "관리자에 의해 라운드가 강제로 재시작되었습니다."
 
-L.round_traitors_one = "Traitor, you stand alone."
-L.round_traitors_more = "Traitor, these are your allies: {names}"
+L.round_traitors_one = "당신은 트레이터입니다, 동료는 없습니다."
+L.round_traitors_more = "당신은 트레이터입니다, 당신의 동료: {names}"
 
-L.win_time = "Time has run out. The Traitors lose."
-L.win_traitors = "The Traitors have won!"
-L.win_innocents = "The Innos have won!"
-L.win_nones = "No-one won!"
-L.win_showreport = "Let's look at the round report for {num} seconds."
+L.win_time = "시간 초과. 트레이터 패배"
+L.win_traitors = "트레이터 승리"
+L.win_innocents = "이노센트 승리"
+L.win_nones = "무승부!"
+L.win_showreport = "{num} 초 동안 리포트가 보여집니다.."
 
-L.limit_round = "Round limit reached. The next map will load soon."
-L.limit_time = "Time limit reached. The next map will load soon."
-L.limit_left = "{num} round(s) or {time} minutes remaining before the map changes."
+L.limit_round      = "라운드 제한에 도달했습니다. {mapname} 로 맵이 변경됩니다."
+L.limit_time       = "라운드 제한시간에 도달했습니다. {mapname} 로 맵이 변경됩니다."
+L.limit_left       = "맵이 {mapname}으로 바뀔 때까지 {num} 라운드 또는 {time} 분 남았습니다."
 
 -- Credit awards
-L.credit_all = "Your team have been awarded {num} equipment credit(s) for your performance."
-L.credit_kill = "You have received {num} credit(s) for killing a {role}."
+L.credit_all = "당신의 팀은 보상으로 {num} 개의 크레딧을 지급받았습니다."
+L.credit_kill = "당신은 {role} 를 사살한 보상으로 {num} 개의 크레딧을 지급받았습니다.."
 
 -- Karma
-L.karma_dmg_full = "Your Karma is {amount}, so you deal full damage this round!"
-L.karma_dmg_other = "Your Karma is {amount}. As a result all damage you deal is reduced by {num}%"
+L.karma_dmg_full   = "당신의 카르마 {amount} 입니다, 패널티가 없습니다!"
+L.karma_dmg_other  = "당신의 카르마 {amount} 입니다. 당신이 가하는 피해가 {num}% 감소합니다."
 
 -- Body identification messages
-L.body_found = "{finder} found the body of {victim}. {role}"
+L.body_found = "{finder} 님이 {victim} 의 시체를 발견하였습니다. {role}"
 L.body_found_team = "{finder} found the body of {victim}. {role} ({team})"
 
 -- The {role} in body_found will be replaced by one of the following:
-L.body_found_traitor = "They were a Traitor!"
-L.body_found_det = "They were a Detective."
-L.body_found_inno = "They were Innocent."
+L.body_found_traitor = "그는 트레이터였습니다!"
+L.body_found_det = "그는 탐정이었습니다."
+L.body_found_inno = "그는 이노센트였습니다."
 
-L.body_confirm = "{finder} confirmed the death of {victim}."
+L.body_confirm = "{finder} 가 {victim} 의 사망 사실을 알렸습니다."
 
-L.body_call = "{player} called a Detective to the body of {victim}!"
-L.body_call_error = "You must confirm the death of this player before calling a Detective!"
+L.body_call = "{player} 가 {victim} 의 시체를 조사하기 위해 탐정을 호출 하였습니다!"
+L.body_call_error = "탐정에게 호출하기전에 시체의 사망 사실을 알려야합니다!"
 
-L.body_burning = "Ouch! This corpse is on fire!"
-L.body_credits = "You found {num} credit(s) on the body!"
+L.body_burning = "아야! 이 시체는 불에 타고있습니다!"
+L.body_credits = "당신은 {num} 개의 크레딧을 시체에서 찾았습니다!"
 
 -- Menus and windows
-L.close = "Close"
-L.cancel = "Cancel"
+L.close = "닫기"
+L.cancel = "취소"
 
 -- For navigation buttons
-L.next = "Next"
-L.prev = "Previous"
+L.next = "다음"
+L.prev = "이전"
 
 -- Equipment buying menu
-L.equip_title = "Equipment"
-L.equip_tabtitle = "Order Equipment"
+L.equip_title = "장비"
+L.equip_tabtitle = "장비 구매"
 
-L.equip_status = "Ordering status"
-L.equip_cost = "You have {num} credit(s) remaining."
-L.equip_help_cost = "Every piece of equipment you buy costs 1 credit."
+L.equip_status = "구매 상태"
+L.equip_cost = "당신은 {num} 개의 크레딧이 남아있습니다."
+L.equip_help_cost = "장비를 구매하기 위해선 한 개의 크레딧을 지불해야합니다."
 
-L.equip_help_carry = "You can only buy things for which you have room."
-L.equip_carry = "You can carry this equipment."
-L.equip_carry_own = "You are already carrying this item."
-L.equip_carry_slot = "You are already carrying a weapon in slot {slot}."
-L.equip_carry_minplayers = "There are not enough players on the server to enable this weapon."
+L.equip_help_carry = "여유 공간이 부족해 구매할 수 없습니다."
+L.equip_carry = "이 장비를 구매할 수 있습니다."
+L.equip_carry_own = "이 장비를 이미 소지하고 있습니다."
+L.equip_carry_slot = "이미 {slot} 슬롯에 물건을 소지하고 있습니다."
+L.equip_carry_minplayers = "이 장비를 구매하기위한 서버의 플레이어 수가 부족합니다."
 
-L.equip_help_stock = "Of certain items you can only buy one per round."
-L.equip_stock_deny = "This item is no longer in stock."
-L.equip_stock_ok = "This item is in stock."
+L.equip_help_stock = "일부 무기는 라운드당 한 번만 구매할 수 있습니다."
+L.equip_stock_deny = "이 물건은 재고가 없습니다."
+L.equip_stock_ok = "이 물건은 재고가 있습니다."
 
 L.equip_custom = "Custom item added by this server."
 
