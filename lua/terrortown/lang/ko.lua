@@ -303,7 +303,7 @@ L.vis_name = "Visualizer"
 L.vis_hint = "{usekey} 키를 눌러 들기 (탐정 전용)."
 
 L.vis_desc = [[
-사건 현장을 분석하기 위한 장치입니다.
+사건 현장을 시각적으로 보여주는 장치입니다.
 
 시체를 분석하여 시체가 총에 맞아 죽었을 경우 어떻게 죽었는지 알려줍니다.]]
 // Analyzes a corpse to show how the victim was killed, but only if they died of gunshot wounds.
