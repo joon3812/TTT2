@@ -646,103 +646,103 @@ L.tip39 = "C4 that explodes due to a mistake in disarming it has a smaller explo
 L.tip40 = "If it says 'HASTE MODE' above the round timer, the round will at first be only a few minutes long, but with every death the available time increases (like capturing a point in TF2). This mode puts the pressure on the traitors to keep things moving."
 
 -- Round report
-L.report_title = "Round Report"
+L.report_title = "라운드 결과"
 
 -- Tabs
-L.report_tab_hilite = "Highlights"
-L.report_tab_hilite_tip = "Round highlights"
-L.report_tab_events = "Events"
-L.report_tab_events_tip = "Log of the events that happened this round"
-L.report_tab_scores = "Scores"
-L.report_tab_scores_tip = "Points scored by each player in this round alone"
+L.report_tab_hilite = "하이라이트" //Highlights
+L.report_tab_hilite_tip = "라운드에 있었던 일들" //Round Highlights
+L.report_tab_events = "이벤트"
+L.report_tab_events_tip = "이번 라운드 일어났던 일들에 대한 기록"
+L.report_tab_scores = "점수"
+L.report_tab_scores_tip = "이번 라운드에서 플레이어들의 점수 획득량"
 
 -- Event log saving
-L.report_save = "Save Log .txt"
-L.report_save_tip = "Saves the Event Log to a text file"
-L.report_save_error = "No Event Log data to save."
-L.report_save_result = "The Event Log has been saved to:"
+L.report_save = "Log .txt 저장하기"
+L.report_save_tip = "이벤트 로그를 텍스트 파일로 저장합니다."
+L.report_save_error = "저장할 이벤트 로그 데이터가 없습니다."
+L.report_save_result = "이벤트 로그가 다음에 저장되었습니다:"
 
 -- Columns
-L.col_time = "Time"
+L.col_time = "시간"
 L.col_event = "Event"
-L.col_player = "Player"
-L.col_roles = "Role(s)"
-L.col_teams = "Team(s)"
-L.col_kills1 = "Kills"
-L.col_kills2 = "Team kills"
-L.col_points = "Points"
-L.col_team = "Team bonus"
-L.col_total = "Total points"
+L.col_player = "플레이어"
+L.col_roles = "직업"
+L.col_teams = "팀"
+L.col_kills1 = "사살 횟수"
+L.col_kills2 = "아군 사살 횟수"
+L.col_points = "점수"
+L.col_team = "팀 보너스"
+L.col_total = "총 점수"
 
 -- Awards/highlights
-L.aw_sui1_title = "Suicide Cult Leader"
-L.aw_sui1_text = "showed the other suiciders how to do it by being the first to go."
+L.aw_sui1_title = "사이비 교주"
+L.aw_sui1_text = "님이 맨 처음 자살하여 사람들에게 어떻게 자살하는지 보여줬습니다."
 
-L.aw_sui2_title = "Lonely and Depressed"
-L.aw_sui2_text = "was the only one who killed themselves."
+L.aw_sui2_title = "극심한 우울증 환자"
+L.aw_sui2_text = "님이 유일하게 자기 자신을 살해했습니다."
 
-L.aw_exp1_title = "Explosives Research Grant"
-L.aw_exp1_text = "was recognized for their research on explosions. {num} test subjects helped out."
+L.aw_exp1_title = "폭탄 실험의 전설"
+L.aw_exp1_text = "님이 폭탄은 언제나 옳다는걸 실험으로 보여줬습니다. {num}명이 그에 도왔습니다."
 
-L.aw_exp2_title = "Field Research"
-L.aw_exp2_text = "tested their own resistance to explosions. It was not high enough."
+L.aw_exp2_title = "실전 실험"
+L.aw_exp2_text = "님이 인간의 신체는 폭탄에 저항이 있음을 발견했습니다. 고작 감기만 걸렸습니다." //tested their own resistance to explosions. It was not high enough.
 
-L.aw_fst1_title = "First Blood"
-L.aw_fst1_text = "delivered the first innocent death at a traitor's hands."
+L.aw_fst1_title = "퍼스트 블러드"
+L.aw_fst1_text = "님이 이노센트중에서 가장 신속하게 트레이터에게 목숨을 헌납했습니다."
 
-L.aw_fst2_title = "First Bloody Stupid Kill"
-L.aw_fst2_text = "scored the first kill by shooting a fellow traitor. Good job."
+L.aw_fst2_title = "퍼스트 블러드?"
+L.aw_fst2_text = "님이 첫번째 살인으로 동료 트레이터를 사살했습니다. 정말 잘했어요!"
 
-L.aw_fst3_title = "First Blooper"
-L.aw_fst3_text = "was the first to kill. Too bad it was an innocent comrade."
+L.aw_fst3_title = "퍼스트 뷁"
+L.aw_fst3_text = "님이 첫번째 살인을 했습니다. 하지만 같은 이노센트 였습니다."
 
-L.aw_fst4_title = "First Blow"
-L.aw_fst4_text = "struck the first blow for the innocent terrorists by making the first death a traitor's."
+L.aw_fst4_title = "퍼스트 블로우"
+L.aw_fst4_text = "님이 이노센트들을 위해 첫번째 살인을 트레이터로 헌납하였습니다."
 
-L.aw_all1_title = "Deadliest Among Equals"
-L.aw_all1_text = "was responsible for every kill made by the innocent this round."
+L.aw_all1_title = "은둔자"
+L.aw_all1_text = "님은 이번 라운드에서 모든 이노센트가 저지른 살인의 대한 책임이 있습니다."
 
-L.aw_all2_title = "Lone Wolf"
-L.aw_all2_text = "was responsible for every kill made by a traitor this round."
+L.aw_all2_title = "외로운 늑대"
+L.aw_all2_text = "님은 이번 라운드에서 모든 트레이터가 저지른 살인의 대한 책임이 있습니다."
 
-L.aw_nkt1_title = "I Got One, Boss!"
-L.aw_nkt1_text = "managed to kill a single innocent. Sweet!"
+L.aw_nkt1_title = "형! 내가 한명 잡았어요!"
+L.aw_nkt1_text = "님이 이노센트 한명을 죽였습니다. 멋지네요!"
 
-L.aw_nkt2_title = "A Bullet For Two"
-L.aw_nkt2_text = "showed the first one was not a lucky shot by killing another."
+L.aw_nkt2_title = "일석이조"
+L.aw_nkt2_text = "님이 한 총알로 두명을 처리했습니다."
 
-L.aw_nkt3_title = "Serial Traitor"
-L.aw_nkt3_text = "ended three innocent lives of terrorism today."
+L.aw_nkt3_title = "연쇄 살인마"
+L.aw_nkt3_text = "님이 세명의 이노센트를 지옥에서 살게 만들었습니다."
 
-L.aw_nkt4_title = "Wolf Among More Sheep-Like Wolves"
-L.aw_nkt4_text = "eats innocent terrorists for dinner. A dinner of {num} courses."
+L.aw_nkt4_title = "양들속의 늑대"
+L.aw_nkt4_text = "님이 이노센트를 먹었습니다. {num}의 시체가 그의 뱃속에 있습니다."
 
-L.aw_nkt5_title = "Counter-Terrorism Operative"
-L.aw_nkt5_text = "gets paid per kill. Can now buy another luxury yacht."
+L.aw_nkt5_title = "대테러부대 지도자"
+L.aw_nkt5_text = "님이 수도없이 많은사람을 죽였습니다. 불타는 모자하나정돈 살수 있겠네요."
 
-L.aw_nki1_title = "Betray This"
-L.aw_nki1_text = "found a traitor. Shot a traitor. Easy."
+L.aw_nki1_title = "이것도 배신해보시지"
+L.aw_nki1_text = "님이 트레이터를 찾은후 사살했습니다. 간단하죠?"
 
-L.aw_nki2_title = "Applied to the Justice Squad"
-L.aw_nki2_text = "escorted two traitors to the great beyond."
+L.aw_nki2_title = "천국의 계단"
+L.aw_nki2_text = "님이 스틱스강으로 트레이터 두명을 인도했습니다."
 
-L.aw_nki3_title = "Do Traitors Dream Of Traitorous Sheep?"
-L.aw_nki3_text = "put three traitors to rest."
+L.aw_nki3_title = "트레이터들도 낮잠을 때리나요?"
+L.aw_nki3_text = "님이 3명의 트레이터들에게 영원한 낮잠을 선물했습니다."
 
 L.aw_nki4_title = "Internal Affairs Employee"
 L.aw_nki4_text = "gets paid per kill. Can now order their fifth swimming pool."
 
-L.aw_fal1_title = "No Mr. Bond, I Expect You To Fall"
-L.aw_fal1_text = "pushed someone off a great height."
+L.aw_fal1_title = "잘가십시오 미스터"
+L.aw_fal1_text = "님이 누군가를 밀어 떨어트렸습니다."
 
-L.aw_fal2_title = "Floored"
-L.aw_fal2_text = "let their body hit the floor after falling from a significant altitude."
+L.aw_fal2_title = "철푸덕"
+L.aw_fal2_text = "님이 떨어져서 몸을 바닥에 내팽겨쳤습니다."
 
-L.aw_fal3_title = "The Human Meteorite"
-L.aw_fal3_text = "crushed someone by falling on them from a great height."
+L.aw_fal3_title = "맘미미아!"
+L.aw_fal3_text = "님이 사람을 밟아 사살했습니다."
 
-L.aw_hed1_title = "Efficiency"
-L.aw_hed1_text = "discovered the joy of headshots and made {num}."
+L.aw_hed1_title = "대갈통"
+L.aw_hed1_text = "님이 {num}명을 머리에서 대갈통으로 만들었습니다."
 
 L.aw_hed2_title = "Neurology"
 L.aw_hed2_text = "removed the brains from {num} heads for a closer examination."
@@ -869,7 +869,7 @@ L.aw_tod1_text = "died only seconds before their team won the round."
 
 L.aw_tod2_title = "I Hate This Game"
 L.aw_tod2_text = "died right after the start of the round."
-
+	
 -- New and modified pieces of text are placed below this point, marked with the
 -- version in which they were added, to make updating translations easier.
 
