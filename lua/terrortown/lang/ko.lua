@@ -250,9 +250,12 @@ L.item_weapon = "무기"
 
 L.item_armor = "방탄복"
 L.item_armor_desc = [[
-총알, 화염, 폭발 대미지를 감소시킵니다. 방탄률은 시간이 지남에 따라 감소합니다. Reduces bullet, fire and explosion damage. Depletes over time.
+총알, 화염, 폭발 대미지를 감소시킵니다. 방탄률은 시간이 지남에 따라 감소합니다.
 
-여러 번 구매할 수 있습니다. 방탄률이 일정 수준 이상을 넘어가면 방탄복이 더욱 강해집니다. It can be purchased multiple times. After reaching a specific armor value, the armor becomes stronger.]]
+여러 번 구매할 수 있습니다. 방탄률이 일정 수준 이상을 넘어가면 방탄복이 더욱 강해집니다.]]
+
+// Reduces bullet, fire and explosion damage. Depletes over time.
+// It can be purchased multiple times. After reaching a specific armor value, the armor becomes stronger.
 
 L.item_radar = "레이더"
 L.item_radar_desc = [[
@@ -278,15 +281,16 @@ L.c4_desc = "타이머가 있는 강력한 폭발물입니다."
 L.c4_arm = "C4 활성화"
 L.c4_arm_timer = "타이머"
 L.c4_arm_seconds = "C4가 폭발할 때까지:"
-L.c4_arm_attempts = "C4의 해체를 시도할 경우 와이어 6개 중 {num} 개는 잘랐을 때 즉시 C4를 폭발시킵니다. In disarm attempts, {num} of the 6 wires will cause instant detonation when cut."
+L.c4_arm_attempts = "C4의 해체를 시도할 경우 와이어 6개 중 {num} 개는 잘랐을 때 즉시 C4를 폭발시킵니다."
+// In disarm attempts, {num} of the 6 wires will cause instant detonation when cut.
 
-L.c4_remove_title = "C4 제거 Removal"
-L.c4_remove_pickup = "C4 들기 Pick up C4"
-L.c4_remove_destroy1 = "C4 파괴 Destroy C4"
-L.c4_remove_destroy2 = "정말 C4를 파괴합니까? Confirm: destroy"
+L.c4_remove_title = "C4 제거"
+L.c4_remove_pickup = "C4 들기"
+L.c4_remove_destroy1 = "C4 파괴"
+L.c4_remove_destroy2 = "정말 C4를 파괴합니까?"
 
 L.c4_disarm = "C4 해체"
-L.c4_disarm_cut = "클릭하여 와이어 {num} 번을 자릅니다. Click to cut wire {num}"
+L.c4_disarm_cut = "클릭하여 와이어 {num} 번을 자릅니다." // Click to cut wire {num}
 
 L.c4_disarm_owned = "C4를 해체하기 위해 와이어를 자르십시오. 이 C4는 당신의 것이므로 모든 와이어가 안전합니다."
 L.c4_disarm_other = "C4를 해체하기 위해 안전한 와이어를 자르십시오. 잘못된 와이어를 자르면 폭발합니다!"
@@ -299,9 +303,10 @@ L.vis_name = "Visualizer"
 L.vis_hint = "{usekey} 키를 눌러 들기 (탐정 전용)."
 
 L.vis_desc = [[
-Crime scene visualization device.
+사건 현장을 분석하기 위한 장치입니다.
 
-시체를 분석하여 시체가 총에 맞아 죽었을 경우 어떻게 죽었는지 알려줍니다. Analyzes a corpse to show how the victim was killed, but only if they died of gunshot wounds.]]
+시체를 분석하여 시체가 총에 맞아 죽었을 경우 어떻게 죽었는지 알려줍니다.]]
+// Analyzes a corpse to show how the victim was killed, but only if they died of gunshot wounds.
 
 -- Decoy
 L.decoy_name = "미끼"
@@ -340,7 +345,7 @@ L.hstation_help = "{primaryfire} 버튼을 눌러 치료기를 배치하십시�
 L.hstation_desc = [[
 배치됐을 때 사람들이 자신을 치료할 수 있게 해 주는 도구입니다.
 
-재충전 속도가 느립니다. 누구나 쓸 수 있고 대미지를 입어 파괴될 수 있습니다. 또한 사용자의 DNA 샘플이 남습니다. Slow recharge. Anyone can use it, and it can be damaged. Can be checked for DNA samples of its users.]]
+재충전 속도가 느립니다. 누구나 쓸 수 있고 대미지를 입어 파괴될 수 있습니다. 또한 사용자의 DNA 샘플이 남습니다.]]
 
 -- Knife
 L.knife_name = "칼"
@@ -392,10 +397,11 @@ L.binoc_desc = [[
 
 -- UMP
 L.ump_desc = [[
-대상에게 혼란을 야기하는 실험적인 SMG입니다. Experimental SMG that disorients targets.
+대상의 화면에 혼란을 야기하는 실험적인 SMG입니다.
 
 일반적인 SMG 탄약을 사용합니다.]]
-
+// Experimental SMG that disorients targets.
+	
 -- DNA scanner
 L.dna_name = "DNA 스캐너"
 L.dna_notfound = "대상에게서 DNA 샘플을 찾지 못했습니다."
@@ -487,9 +493,9 @@ L.corpse_hint = "[{usekey}] 키를 눌러 조사하십시오. [{walkkey} + {usek
 
 L.target_disg = "(변장함)"
 L.target_unid = "미조사된 시체"
-L.target_unknown = "판별 불가능 A Terrorist"
+L.target_unknown = "테러리스트" // A Terrorist
 
-L.target_credits = "조사하여 크레딧을 획득 Search to receive unspent credits"
+L.target_credits = "조사하여 소비되지 않은 크레딧을 획득"
 
 -- HUD buttons with hand icons that only some roles can see and use
 L.tbut_single = "일회용"
@@ -504,10 +510,10 @@ L.mute_all = "모든 사람이 뮤트됨"
 L.mute_off = "뮤트 해제됨"
 
 -- Spectators and prop possession
-L.punch_title = "중력 빙의기"
-L.punch_help = "이동 키나 점프 키를 눌러 물체를 움직임. 앉기 키를 눌러 물체를 나감."
-L.punch_bonus = "당신의 낮은 점수로 인해 중력 빙의기 수가 {num} 개로 제한됐습니다! Your bad score lowered your punch-o-meter limit by {num}"
-L.punch_malus = "당신의 높은 점수로 인해 중력 빙의기 수가 {num} 개로 늘어났습니다! Your good score increased your punch-o-meter limit by {num}!"
+L.punch_title = "프롭 빙의"
+L.punch_help = "이동 키나 점프 키를 눌러 프롭을 움직임. 앉기 키를 눌러 빙의를 해제."
+L.punch_bonus = "당신의 낮은 점수로 인해 punch-o-meter 가 {num} 개로 제한됐습니다!"
+L.punch_malus = "당신의 높은 점수로 인해 punch-o-meter 가 {num} 개로 늘어났습니다!"
 
 -- Info popups shown when the round starts
 L.info_popup_innocent = [[
