@@ -305,7 +305,7 @@ L.vis_hint = "{usekey} 키를 눌러 들기 (탐정 전용)."
 L.vis_desc = [[
 사건 현장을 시각적으로 보여주는 장치입니다.
 
-시체를 분석하여 시체가 총에 맞아 죽었을 경우 어떻게 죽었는지 알려줍니다.]]
+시체를 분석하ㅂ 총에 맞아 죽었을 경우 어떻게 죽었는지 알려줍니다.]]
 // Analyzes a corpse to show how the victim was killed, but only if they died of gunshot wounds.
 
 -- Decoy
@@ -715,7 +715,7 @@ L.aw_nkt3_title = "연쇄 살인마"
 L.aw_nkt3_text = "님이 세명의 이노센트를 지옥에서 살게 만들었습니다."
 
 L.aw_nkt4_title = "양들속의 늑대"
-L.aw_nkt4_text = "님이 이노센트를 먹었습니다. {num}의 시체가 그의 뱃속에 있습니다."
+L.aw_nkt4_text = "님의 저녁 식사는 이노센트였습니다. {num} 접시였네요."
 
 L.aw_nkt5_title = "대테러부대 지도자"
 L.aw_nkt5_text = "님이 수도없이 많은사람을 죽였습니다. 불타는 모자하나정돈 살수 있겠네요."
