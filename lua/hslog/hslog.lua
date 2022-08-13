@@ -1,3 +1,5 @@
+원작자: 혼살
+
 local hsl_debug = nil
 
 if (CLIENT) then
