@@ -397,7 +397,7 @@ L.binoc_desc = [[
 
 -- UMP
 L.ump_desc = [[
-대상의 화면에 혼란을 야기하는 실험적인 SMG입니다.
+대상의 시야에 혼란을 야기하는 실험적인 SMG입니다.
 
 일반적인 SMG 탄약을 사용합니다.]]
 // Experimental SMG that disorients targets.
