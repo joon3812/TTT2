@@ -744,8 +744,9 @@ L.aw_fal3_text = "님이 사람을 밟아 사살했습니다."
 L.aw_hed1_title = "대갈통"
 L.aw_hed1_text = "님이 {num}명을 머리에서 대갈통으로 만들었습니다."
 
-L.aw_hed2_title = "Neurology"
-L.aw_hed2_text = "removed the brains from {num} heads for a closer examination."
+L.aw_hed2_title = "신경학"
+L.aw_hed2_text = "님이 자세한 검사를 위해 {num} 개의 머리에서 뇌를 적출했습니다." //removed the brains from {num} heads for a closer examination.
+
 
 L.aw_hed3_title = "Videogames Made Me Do It"
 L.aw_hed3_text = "applied their murder simulation training and headshotted {num} foes."
