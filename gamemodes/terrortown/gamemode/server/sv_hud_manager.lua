@@ -97,7 +97,7 @@ function HUDManager.LoadData()
 	MsgN("[TTT2][HUDManager] Loading data from database...")
 
 	ttt2net.SetGlobal({"hud_manager", "forcedHUD"}, {type = "string"}, DB_GetStringValue("forcedHUD"))
-	ttt2net.SetGlobal({"hud_manager", "defaultHUD"}, {type = "string"}, DB_GetStringValue("defaultHUD") or "pure_skin")
+	ttt2net.SetGlobal({"hud_manager", "defaultHUD"}, {type = "string"}, DB_GetStringValue("defaultHUD") or "old_ttt")
 	ttt2net.SetGlobal({"hud_manager", "restrictedHUDs"}, {type = "table"}, DB_GetStringTable(HUD_MANAGER_SQL_RESTRICTEDHUDS_TABLE) or {})
 end
 
@@ -150,7 +150,7 @@ net.Receive("TTT2RequestHUD", function(_, ply)
 	local hudToSendTbl = huds.GetStored(hudToSend)
 
 	if not hudToSendTbl or hudToSendTbl.isAbstract then
-		hudToSend = ttt2net.GetGlobal({"hud_manager", "defaultHUD"}) or "pure_skin"
+		hudToSend = ttt2net.GetGlobal({"hud_manager", "defaultHUD"}) or "old_ttt"
 	end
 
 	net.Start("TTT2ReceiveHUD")
@@ -165,7 +165,7 @@ net.Receive("TTT2DefaultHUDRequest", function(_, ply)
 
 	if ply:IsAdmin() then
 		if HUDToSet == "" then -- Reset the forcedHUD value, to allow users to have a different HUD
-			ttt2net.SetGlobal({"hud_manager", "defaultHUD"}, {type = "string"}, "pure_skin")
+			ttt2net.SetGlobal({"hud_manager", "defaultHUD"}, {type = "string"}, "old_ttt")
 
 			acceptedRequest = true
 		else
