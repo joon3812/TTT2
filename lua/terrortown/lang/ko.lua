@@ -621,29 +621,29 @@ L.tip27 = "As Detective, corpses with a magnifying glass after the nickname have
 
 L.tip28 = "Spectators can press {mutekey} to cycle through muting other spectators or living players."
 
-L.tip29 = "If the server has installed additional languages, you can switch to a different language at any time in the Settings menu."
+L.tip29 = "설정 메뉴에서 언제든지 다른 언어로 전환할 수 있습니다." // If the server has installed additional languages, you can switch to a different language at any time in the Settings menu.
 
-L.tip30 = "Quickchat or 'radio' commands can be used by pressing {zoomkey}."
+L.tip30 = "{zoomkey}를 눌러 빠른 채팅 또는 라디오 명령을 사용할 수 있습니다." // Quickchat or radio commands can be used by pressing {zoomkey}.
 
-L.tip31 = "As Spectator, press {duckkey} to unlock your mouse cursor and click the buttons on this tips panel. Press {duckkey} again to go back to mouseview."
+L.tip31 = "관전자일때 {duckkey}를 눌러 마우스 커서를 활성화/비활성화할 수 있습니다." // As Spectator, press {duckkey} to unlock your mouse cursor and click the buttons on this tips panel. Press {duckkey} again to go back to mouseview.
 
-L.tip32 = "The Crowbar's secondary fire will push other players."
+L.tip32 = "빠루의 우클릭으로 다른 플레이어를 밀수 있습니다." // The Crowbar's secondary fire will push other players.
 
 L.tip33 = "Firing through the ironsights of a weapon will slightly increase your accuracy and decrease recoil. Crouching does not."
 
-L.tip34 = "Smoke grenades are effective indoors, especially for creating confusion in crowded rooms."
+L.tip34 = "연막탄은 실내, 특히 사람이 많은 방에서 혼란을 일으키는데 효과적입니다." // Smoke grenades are effective indoors, especially for creating confusion in crowded rooms.
 
-L.tip35 = "As Traitor, remember you can carry dead bodies and hide them from the prying eyes of the innocent and their Detectives."
+L.tip35 = "트레이터가 이노센트와 탐정들의 눈을 피해 시체를 운반할 수 있다는것을 기억해두세요." // As Traitor, remember you can carry dead bodies and hide them from the prying eyes of the innocent and their Detectives.
 
-L.tip36 = "The tutorial available under {helpkey} contains an overview of the most important keys of the game."
+L.tip36 = "{helpkey} 에서 제공되는 튜토리얼에는 게임에서 가장 중요한 조작키에 대한 설명이 있습니다." // The tutorial available under {helpkey} contains an overview of the most important keys of the game.
 
-L.tip37 = "On the scoreboard, click the name of a living player and you can select a tag for them such as 'suspect' or 'friend'. This tag will show up if you have them under your crosshair."
+L.tip37 = "스코어보드에서 살아있는 플레이어의 이름을 클릭하면 해당 플레이어의 태그를 선택할 수 있습니다. 이 태그는 그 플레이어를 조준할때 표시됩니다."// On the scoreboard, click the name of a living player and you can select a tag for them such as 'suspect' or 'friend'. This tag will show up if you have them under your crosshair.
 
-L.tip38 = "Many of the placeable equipment items (such as C4, Radio) can be stuck on walls using secondary fire."
+L.tip38 = "배치할수있는 장비들(C4, 라디오 등)의 대부분은 우클릭으로 벽에 붙일수 있습니다." // Many of the placeable equipment items (such as C4, Radio) can be stuck on walls using secondary fire.
 
-L.tip39 = "C4 that explodes due to a mistake in disarming it has a smaller explosion than C4 that reaches zero on its timer."
+L.tip39 = "C4 해체중 실수로 폭발이 일어났을 경우에, 타이머가 종료됐을때 일어나는 폭발보단 더 작은 범위로 폭발합니다." // C4 that explodes due to a mistake in disarming it has a smaller explosion than C4 that reaches zero on its timer.
 
-L.tip40 = "If it says 'HASTE MODE' above the round timer, the round will at first be only a few minutes long, but with every death the available time increases (like capturing a point in TF2). This mode puts the pressure on the traitors to keep things moving."
+L.tip40 = "남은 시간 위에 'HASTE MODE' 라고 표시되어 있으면 누군가 죽을때마다 남은 시간이 증가합니다. 이것은 트레이터들이 활동할수밖에 없게 만듭니다." // If it says 'HASTE MODE' above the round timer, the round will at first be only a few minutes long, but with every death the available time increases (like capturing a point in TF2). This mode puts the pressure on the traitors to keep things moving.
 
 -- Round report
 L.report_title = "라운드 결과"
