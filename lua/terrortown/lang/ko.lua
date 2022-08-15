@@ -1344,7 +1344,7 @@ L.desc_event_kill_crush = "{victim} ({vrole} / {vteam})(이)가 {attacker}에게
 L.desc_event_kill_crush_using = "{victim} ({vrole} / {vteam})(이)가 {attacker} ({arole} / {ateam})에게 {trap}(으)로 으스러졌습니다."
 
 L.desc_event_kill_other = "{victim} ({vrole} / {vteam})(이)가 {attacker}에게 죽었습니다."
-L.desc_event_kill_other_using = "{victim} ({vrole} / {vteam})(이)가 {attacker} ({arole} / {ateam})(이)가 발동한 {trap}에 의해 ."
+L.desc_event_kill_other_using = "{victim} ({vrole} / {vteam})(이)가 {attacker} ({arole} / {ateam})(이)가 발동한 {trap}에 의해 죽었습니다."
 
 -- 2021-04-20
 L.none = "직업 없음"
