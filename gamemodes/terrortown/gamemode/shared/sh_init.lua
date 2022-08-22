@@ -5,7 +5,7 @@ GM.Name = "TTT2 (Advanced Update)"
 GM.Author = "Bad King Urgrain, Alf21, saibotk, Mineotopia, LeBroomer, Histalek, ZenBre4ker"
 GM.Email = "ttt2@neoxult.de"
 GM.Website = "ttt.badking.net, docs.ttt2.neoxult.de"
-GM.Version = "0.11.4b"
+GM.Version = "0.11.5b"
 GM.Customized = true
 
 TTT2 = true -- identifier for TTT2. Just use "if TTT2 then ... end"
@@ -558,6 +558,7 @@ include("ttt2/libraries/vguihandler.lua")
 include("ttt2/libraries/vskin.lua")
 include("ttt2/libraries/door.lua")
 include("ttt2/libraries/orm.lua")
+include("ttt2/libraries/database.lua")
 include("ttt2/libraries/marks.lua")
 include("ttt2/libraries/outline.lua")
 include("ttt2/libraries/thermalvision.lua")
