@@ -16,10 +16,10 @@ local pairs = pairs
 -- @realm client
 local cv_ttt_language = CreateConVar("ttt_language", "auto", FCVAR_ARCHIVE)
 
-LANG.DefaultLanguage = "en"
+LANG.DefaultLanguage = "ko"
 LANG.ActiveLanguage = LANG.DefaultLanguage
 
-LANG.ServerLanguage = "en"
+LANG.ServerLanguage = "ko"
 
 local cachedDefault = {}
 local cachedActive = {}
