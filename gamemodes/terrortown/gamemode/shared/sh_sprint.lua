@@ -24,7 +24,7 @@ if SERVER then
 
 	---
 	-- @realm server
-	local sprintEnabled = CreateConVar("ttt2_sprint_enabled", "1", {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Toggle Sprint (Def: 1)")
+	local sprintEnabled = CreateConVar("ttt2_sprint_enabled", "0", {FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Toggle Sprint (Def: 1)")
 
 	---
 	-- @realm server

@@ -337,10 +337,11 @@ L.flare_desc = [[
 시체를 불태우면 구분하기 쉬운 소음이 발생합니다.]]
 
 -- Health station
-L.hstation_name = "치료기"
+L.hstation_name = "구급 상자"
+L.hstation_name_traitor = "구급 상자"
 
-L.hstation_broken = "당신의 치료기가 파괴되었습니다!"
-L.hstation_help = "{primaryfire} 버튼을 눌러 치료기를 배치하십시오."
+L.hstation_broken = "당신의 구급 상자가 파괴되었습니다!"
+L.hstation_help = "{primaryfire} 버튼을 눌러 구급 상자를 배치하십시오."
 
 L.hstation_desc = [[
 배치됐을 때 사람들이 자신을 치료할 수 있게 해 주는 도구입니다.

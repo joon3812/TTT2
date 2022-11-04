@@ -8,7 +8,7 @@ if SERVER then
 else -- CLIENT
 	-- this entity can be DNA-sampled so we need some display info
 	ENT.Icon = "vgui/ttt/icon_health"
-	ENT.PrintName = "hstation_name"
+	ENT.PrintName = "hstation_name_traitor"
 end
 
 ENT.Type = "anim"
@@ -17,12 +17,12 @@ ENT.Model = Model("models/props/cs_office/microwave.mdl")
 --ENT.CanUseKey = true
 ENT.CanHavePrints = true
 ENT.MaxHeal = 25
-ENT.MaxStored = 200
-ENT.RechargeRate = 5
-ENT.RechargeFreq = 0.5 -- in seconds
+ENT.MaxStored = 100
+ENT.RechargeRate = 1
+ENT.RechargeFreq = 2 -- in seconds
 
 ENT.NextHeal = 0
-ENT.HealRate = 2
+ENT.HealRate = 1
 ENT.HealFreq = 0.2
 
 ---

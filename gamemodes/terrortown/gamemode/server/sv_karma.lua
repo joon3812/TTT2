@@ -64,7 +64,7 @@ KARMA.cv = {
 
 	---
 	-- @realm server
-	autokick = CreateConVar("ttt_karma_low_autokick", "1", {FCVAR_NOTIFY, FCVAR_ARCHIVE}),
+	autokick = CreateConVar("ttt_karma_low_autokick", "0", {FCVAR_NOTIFY, FCVAR_ARCHIVE}),
 
 	---
 	-- @realm server
@@ -72,7 +72,7 @@ KARMA.cv = {
 
 	---
 	-- @realm server
-	autoban = CreateConVar("ttt_karma_low_ban", "1", {FCVAR_NOTIFY, FCVAR_ARCHIVE}),
+	autoban = CreateConVar("ttt_karma_low_ban", "0", {FCVAR_NOTIFY, FCVAR_ARCHIVE}),
 
 	---
 	-- @realm server
